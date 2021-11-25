@@ -3,10 +3,9 @@ import { Layout, Button } from 'antd';
 
 const { Header, Content, Sider } = Layout;
 
+interface HomeProps {}
 
-
-
-const Head = () => {
+const Head = (props: HomeProps) => {
   return <Header  className={ Style.header }>
     header
   </Header>
@@ -31,4 +30,5 @@ const Home = () => {
     <HomeContent />
   </Layout>
 }
+
 export default Home
