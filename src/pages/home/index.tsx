@@ -30,5 +30,5 @@ const Home = () => {
     <HomeContent />
   </Layout>
 }
-
+  
 export default Home
