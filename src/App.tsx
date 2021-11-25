@@ -1,6 +1,6 @@
 import React from 'react';
 // import Home from 'pages/home'
-import AppRouter from 'router/index'
+import AppRouter from 'router/index';
 
 function App() {
   return (
