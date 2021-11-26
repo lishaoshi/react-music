@@ -1,13 +1,8 @@
-import Style from './index.module.scss';
+import Style from './index.module.less';
 import { Layout } from 'antd';
 import { ReactElement } from 'react';
-const { Header, Content, Sider } = Layout;
-
-// interface HomeProps {}
-
-const Head = () => {
-  return <Header className={Style.header}>header</Header>;
-};
+import LayoutHeader from './components/header';
+const { Content, Sider } = Layout;
 
 const HomeContent = () => {
   return (
@@ -31,7 +26,7 @@ const Main = () => {
 const Home = (): ReactElement => {
   return (
     <Layout>
-      <Head />
+      <LayoutHeader />
 
       <HomeContent />
     </Layout>

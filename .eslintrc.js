@@ -5,9 +5,14 @@ module.exports = {
     'react-app',
     'plugin:prettier/recommended',
   ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
   plugins: ['@typescript-eslint', 'react'],
   rules: {
-    'prettier/prettier': 2
+    'prettier/prettier': 2,
+    "@typescript-eslint/no-var-requires": 0,
   },
 };
 
