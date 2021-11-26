@@ -6,3 +6,4 @@ src/serviceWorker.js
 typings
 public
 .husky
+.eslintrc.js

@@ -1,13 +1,10 @@
-import React from 'react';
-// import Home from 'pages/home'
 import AppRouter from 'router/index';
-
-function App() {
+import React, { ReactElement } from 'react';
+function App(): ReactElement {
   return (
     <div className="App">
       <AppRouter />
     </div>
   );
 }
-
 export default App;
